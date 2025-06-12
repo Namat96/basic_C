@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    double pi = 3.14159265358979;
+    double e = 2.718281828;
+    printf("The value of pi is %.15f\n", pi); // Prints 15 decimal places
+    printf("The value of e is %.10f", e);
+    return 0;
+}
