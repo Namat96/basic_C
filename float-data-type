@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    float gpa = 3.11;
+    float price = 19.99;
+    float temprature = -9.5;
+    printf("My GPA after 6th semester is %f\n", gpa);
+    printf("The price of one dozen eggs is %.2f$.\n", price);
+    printf("In winter temprature is upto %.1f", temprature);
+    return 0;
+}
