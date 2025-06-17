@@ -4,7 +4,6 @@ int main() {
     char name[] = "Namat Ullah.";
     char food[] = "Pizza";
     char email[] = "namat@email.com";
-    bool isOnline = true;
     printf("Hello %s\n", name);
     printf("Your favourite food is %s\n", food);
     printf("Namat Your email is %s\n", email);
