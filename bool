@@ -15,8 +15,13 @@ int main()
 
 int main()
 {
-    bool isOnline = true;
-    printf("%d", isOnline);
+    bool isOnline = 0;
+    if(isOnline){
+        printf("User is online.");
+    }
+    else{
+        printf("User is offline.");
+    }
 
     return 0;
 }
