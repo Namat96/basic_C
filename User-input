@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+    float gpa;
+    char grade;
+    char name[30];
+
+    printf("Namat enter your age : ");
+    scanf("%d", &age);
+
+    printf("Namat your gpa after 6th semester is : ");
+    scanf("%f", &gpa);
+
+    
+    getchar();
+
+    printf("You have scored grade : ");
+    scanf("%c", &grade);
+
+    printf("MY Name is : ");
+    scanf("%s", name); 
+
+  
+    printf("\n--- Your Info ---\n");
+    printf("Age: %d\n", age);
+    printf("GPA: %.2f\n", gpa);
+    printf("Grade: %c\n", grade);
+    printf("Name: %s\n", name);
+
+    return 0;
+}
