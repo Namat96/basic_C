@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    bool IsSunny = true;
+    
+     int temp = 20;
+    bool isSunny = true;
+
+    if(temp > 0 && temp < 30){
+        printf("The temperature is GOOD");
+    }
+    else{
+        printf("The temperature is BAD");
+    }
+
+    return 0;
+}
