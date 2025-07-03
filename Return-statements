@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// Function to return the maximum of two numbers
+int getmax(int x, int y){
+    if(x >= y){
+        return x;
+    }
+    else{
+        return y;
+    }
+}
+
+int main()
+{
+    int max = getmax(3, 4);
+    printf("Maximum value is: %d\n", max);  // ✅ Print the result
+
+    return 0;
+}
