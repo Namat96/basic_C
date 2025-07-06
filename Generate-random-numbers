@@ -1,0 +1,15 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <time.h> 
+
+int main() {
+    srand(time(NULL));
+    int min = 50;
+    int max = 100; 
+    int randNumber1 = (rand() % (max-min+1)) + min;
+    int randNumber2 = (rand() % (max-min+1)) + min;
+    int randNumber3 = (rand() % (max-min+1)) + min;
+    printf("%d %d %d", randNumber1, randNumber2, randNumber3);
+    return 0;
+
+}
