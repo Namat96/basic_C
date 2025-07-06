@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int rows = 0;
+    int columns = 0;
+    char symbol = '\0';
+
+    // Get number of rows
+    printf("How many rows?: ");
+    scanf("%d", &rows);
+
+    // Get number of columns
+    printf("How many columns?: ");
+    scanf("%d", &columns);
+
+    // Get the symbol to use
+    printf("Enter a symbol to use: ");
+    scanf(" %c", &symbol);  // Space before %c to consume any leftover newline
+
+    // Print the pattern
+    printf("\nYour pattern:\n\n");
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            printf("%c", symbol);
+        }
+        printf("\n");
+    }
+
+    printf("\nPattern printed successfully!\n");
+
+    return 0;
+}
